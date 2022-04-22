@@ -32,7 +32,7 @@ If you want to install from source code:
 
 .. code-block:: console
 
-    $ git clone git://github.com/IBM/kestrel-jupyter
+    $ git clone git://github.com/opencybersecurityalliance/kestrel-jupyter
     $ cd kestrel-jupyter
     $ pip install .
     $ python -m kestrel_jupyter_kernel.setup
@@ -41,11 +41,14 @@ How to Use Kestrel Jupyter Notebook Kernel
 ==========================================
 
 Start Jupyter with ``jupyter notebook`` and start a new notebook with kernel
-``kestrel``.
+``kestrel``. Note if you are using ``jupyter lab``, most functionalities are
+there such as code execution, error prompot, and context-aware auto-complete,
+but the syntax highlighting is not ported from our Jupyter Notebook environment
+to Jupyter Lab yet.
 
 Write your hello world hunt:
 
-.. code-block::
+.. code-block:: elixir
 
     newvar = NEW process ["cmd.exe", "reg.exe"]
     DISP newvar
