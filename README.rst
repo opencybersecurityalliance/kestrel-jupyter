@@ -1,3 +1,5 @@
+This repo has been merged to `kestrel-lang`_ repo on 2023-10-18 (upon Kestrel 1.8.0 release).
+
 ===============================
 Kestrel Jupyter Notebook Kernel
 ===============================
